@@ -1,0 +1,18 @@
+1.Inicio
+2.(ventas(5),i[0-n])
+3.indice, i[0-n]
+4.(dias(5), x(20)[{a-z}, {BS}])
+5.dias[0]<-- "Lunes "
+6.dias[1]<-- "Martes "
+7.dias[2]<-- "Miércoles "
+8.dias[3]<-- "Jueves "
+9.dias[4]<-- "Viernes "
+10.cadenaFinal X(100)[{A-Z},{a-z},{BS, $}] <-- ""
+
+11. Para(indice<--0, indice<=5, 1) haga
+12.	Escribir "ingrese el valor de las ventas por dia: " +  " " + dias[indice] + "\n"
+13.	Leer ventas[indice]
+14.cadenaFinal <-- cadenaFinal + dias[indice] + "$" + ventas[indice]
+15.FinPara
+16.Escribir cadenaFinal
+17.Fin
